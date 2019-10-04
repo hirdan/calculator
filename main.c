@@ -4,7 +4,7 @@
 int main()
 {
     float num1,num2,ans;
-    int op;
+    int oper;
     char ch;
     label:
      printf("Enter the first number:");
@@ -12,8 +12,8 @@ int main()
      printf("Enter the second number:");
      scanf("%f",&num2);
      printf("\nEnter the operation:");
-     scanf(" %d",&op);
-     switch(op)
+     scanf(" %d",&oper);
+     switch(oper)
      {
         case 1: ans = num1+num2;
                 printf("%f",ans);
