@@ -29,9 +29,7 @@ int main()
                 break;
         case 5: ans = (int)num1%(int)num2;
                 printf("%f",ans);
-                break;
-        case 6: ans = pow(num1,num2);
-                printf("%f",ans);
+                
                 break;
         default: printf("Wrong choice!");
      }
