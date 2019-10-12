@@ -11,6 +11,11 @@ int main()
      scanf("%f",&num1);
      printf("Enter the second number:");
      scanf("%f",&num2);
+      printf("\nEnter 1 to add both numbers");
+     printf("\nEnter 2 to subtract both numbers");
+      printf("\nEnter 3 to multiply both numbers");
+      printf("\nEnter 4 to divide both numbers");
+      printf("\nEnter 5 to find remainder of both numbers");
      printf("\nEnter the operation:");
      scanf(" %d",&oper);
      switch(oper)
