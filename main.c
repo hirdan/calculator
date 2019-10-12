@@ -5,7 +5,7 @@ int main()
 {
     float num1,num2,ans;
     int oper;
-    char ch;
+    char choice;
     label:
      printf("Enter the first number:");
      scanf("%f",&num1);
@@ -39,9 +39,9 @@ int main()
         default: printf("Wrong choice!");
      }
      printf("\nPress Y to continue and N to exit.");
-     scanf("%c",ch);
-     if(ch=='Y'||ch=='y')
+     scanf("%c",choice);
+     if(choice=='Y'||choice=='y')
         goto label;
-     else if(ch=='N'||ch=='n')
+     else if(choice=='N'||choice=='n')
         exit(-1);
 }
